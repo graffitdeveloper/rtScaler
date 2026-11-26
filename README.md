@@ -1,4 +1,4 @@
-This simple editor tool lets you resize UI elements without changing their scale. It adjusts commonly used UI properties, such as anchored position, size delta, font size, and layout element settings, so the UI looks as though it had been recreated at the new size.
+This simple Unity editor tool lets you resize Unity UI elements without changing their scale. It adjusts commonly used UI properties, such as anchored position, size delta, font size, and layout element settings, so the UI looks as though it had been recreated at the new size.
 
 The Normalize Scale button sets the scale to 1 while preserving the UI element's appearance.
 
