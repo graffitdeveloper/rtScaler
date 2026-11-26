@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -53,7 +52,7 @@ public class RtScalerEditor : Editor
         if (GUILayout.Button("Normalize RT"))
         {
             RegisterUndo("Normalize RT");
-            var rt = target.GetComponent<RectTransform>();
+            var rt = ((RtScaler)target).GetComponent<RectTransform>();
             var wasScale = rt.localScale.x;
             rt.localScale = Vector3.one;
             Scale(wasScale, 1, "Normalize RT");
